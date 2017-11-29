@@ -1,0 +1,87 @@
+body,html{
+	height:100%;padding:0px;margin:0px
+}
+
+body{
+	font-size:3vw
+}
+
+
+.a,.b,.c{
+	display:inline-block;
+	position:static;
+	width:33.33%;height:100%;
+	float:left;
+}
+
+.fondo{
+	
+	height: 100%;
+	width: 100%;
+	z-index: 0; /*Se usa para posicionamiento de capas*/
+	position:fixed;
+	
+}
+.fondo img{
+	height: 100%;
+	width: 100%
+
+}
+	
+
+#nave{
+	text-align:center;
+	position:fixed;
+	top:5%;width:100%;height:20%;
+	
+
+}
+
+#nave img{
+	height:75%;
+}
+
+#indicadores{
+	list-style-type: none;
+	position:relative;
+	text-align:right;
+	padding: 0px;
+	margin-top: 65% ;
+	float:left;
+	display: inline-block;
+}
+
+#menu{
+	float: right;
+	list-style-type:none;
+	position:relative;
+	padding:0px;
+	margin-top: 65%;
+	display: inline-block;
+}	
+
+#play{
+	
+	
+
+}
+
+#reset{
+	
+}
+
+#desplegable{
+
+}
+
+#velocimetro{
+
+}
+
+#fuel {
+
+}
+
+#altimetro{
+
+}
