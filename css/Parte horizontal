@@ -1,0 +1,91 @@
+body,html{
+	height:100%;padding:0px;margin:0px
+}
+
+body{
+	font-size:6vw;
+}
+
+
+
+.a,.b,.c{
+	display:inline-block;
+	position:static;
+	width:33.33%;height:100%;
+	float:left;
+}
+
+.fondo{
+	
+	height: 100%;
+	width: 100%;
+	z-index: 0; /*Se usa para posicionamiento de capas*/
+	position:fixed;
+	
+}
+.fondo img{
+	height: 100%;
+	width: 100%
+
+}
+	
+
+#nave{
+	text-align:center;
+	position:fixed;
+	top:5%;width:100%;height:20%;
+	
+
+}
+
+#nave img{
+	height:75%;
+}
+
+#indicadores{
+	list-style-type: none;
+	position:relative;
+	text-align:left;
+	padding: 0px;
+	margin-top: 50% ;
+	float:left;
+	display: inline-block;
+}
+
+#menu{
+	
+	position:relative;
+	padding:0px;
+	margin-top: 5%;
+	margin-left:55%;
+
+
+}	
+
+#menu img{
+	width: 50%;
+}
+
+
+
+#velocimetro{
+	
+
+
+}
+
+#fuel {
+
+}
+
+#altimetro{
+
+}
+
+#desplegable{
+
+}
+
+#barra{
+	
+}
