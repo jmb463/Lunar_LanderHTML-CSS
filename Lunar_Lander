@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width-device-width, initial-scale=1.0" />
+<link rel="stylesheet" type="text/css" href="css/Parte horizontal.css">
+<link rel="stylesheet" media="screen and (max-width: 700px)" href="css/Parte vertical (movil).css"
+
+</head>
+
+<body>
+<div class="fondo">
+	<img src="img/paisaje.jpg" alt="fondo">
+</div>
+
+<div id="nave">
+	<img src="img/ovni.png.png" alt="img nave">
+</div>
+
+<div class="a">
+	<ul id="indicadores">
+		<li id="velocimetro"><img src="img/Speed.png" alt="Velocímetro"> <img id="barra" src="img/barra sin fondo.png"></li>
+		<li id="fuel"><img src="img/fuel.png" alt="Fuel"> <img id="barra" src="img/barra sin fondo.png"></li>
+		<li id="altimetro"><img src="img/altura.png" alt="Altura"> <img id="barra" src="img/barra sin fondo.png"></li>
+</ul>
+
+</div><div class="b"></div><div class="c">
+
+<div id="menu">
+	<img src="img/desplegable.png" alt="desplegable">
+</div>
+
+</body>
+
+</html>
