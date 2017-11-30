@@ -45,7 +45,7 @@ body{
 #indicadores{
 	list-style-type: none;
 	position:relative;
-	text-align:left;
+	text-align:right;
 	padding: 0px;
 	margin-top: 50% ;
 	float:left;
@@ -59,33 +59,32 @@ body{
 	margin-top: 5%;
 	margin-left:55%;
 
-
 }	
 
 #menu img{
+	
 	width: 50%;
+	background-color: grey;
+}
+
+#menu:hover img{
+	background-color: white;
+}
+
+
+#velocimetro img{
+	background-color:grey;
+}
+
+
+#fuel img{
+	background-color:grey;
+
 }
 
 
 
-#velocimetro{
-	
+#altimetro img{
+	background-color:grey;
 
-
-}
-
-#fuel {
-
-}
-
-#altimetro{
-
-}
-
-#desplegable{
-
-}
-
-#barra{
-	
 }
