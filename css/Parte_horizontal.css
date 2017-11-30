@@ -1,90 +1,167 @@
 body,html{
-	height:100%;padding:0px;margin:0px
+	height:100%;
+	padding:0px;
+	margin:0px
 }
 
 body{
-	font-size:6vw;
+	font-size:3vw
 }
-
-
 
 .a,.b,.c{
 	display:inline-block;
-	position:static;
-	width:33.33%;height:100%;
+	width:33.33%;
+	height:100%;
 	float:left;
-}
-
-.fondo{
-	
-	height: 100%;
-	width: 100%;
-	z-index: 0; /*Se usa para posicionamiento de capas*/
-	position:fixed;
-	
-}
-.fondo img{
-	height: 100%;
-	width: 100%
 
 }
-	
 
-#nave{
+
+	
+#ovni{
 	text-align:center;
 	position:fixed;
-	top:5%;width:100%;height:20%;
-	
+	top:5%;
+	width:100%;
+	height:100%;
+	background-image: url(../img/ovni.png);
+	background-repeat: no-repeat;
+	background-position: 50% 0%;
 
 }
 
-#nave img{
-	height:75%;
+
+#fondo {
+	position: fixed;
+	z-index: 0;
+	height:100%;
+	width: 100%;
+	background: url(../img/paisaje.jpg) no-repeat center center fixed;
+	background-size: cover;
 }
 
-#indicadores{
-	list-style-type: none;
-	position:relative;
-	text-align:right;
-	padding: 0px;
-	margin-top: 50% ;
-	float:left;
+#play:hover {
+	background-color: grey;
+   
+}
+#play {
+	border-radius: 50px;
 	display: inline-block;
+	float: right;
+	background-color: white;
+	border-style: solid;
+	margin: 10px;
+	margin-top: 5%;
+	width: 64px;
+	height: 70px;
+	background-image: url(../img/play.png);
+	background-repeat: no-repeat;
+	background-size: 66%;
+	background-position: 60% 50%;
+	position:relative;
+	z-index: 1;
 }
 
-#menu{
-	
-	position:relative;
-	padding:0px;
-	margin-top: 5%;
-	margin-left:55%;
-
-}	
-
-#menu img{
-	
-	width: 50%;
+#opciones:hover {
 	background-color: grey;
 }
-
-#menu:hover img{
+#opciones{
+	border-radius: 50px;
+	display: inline-block;
+	float: right;
 	background-color: white;
+	border-style: solid;
+	margin: 10px;
+	margin-top: 5%;
+	width: 66px;
+	height: 70px;
+	background-image: url(../img/opciones.png);
+	background-repeat: no-repeat;
+	background-size: 60%;
+	background-position: 50% 50%;
+	position:relative;
+	z-index: 1;
 }
 
-
-#velocimetro img{
-	background-color:grey;
+#reset:hover {
+	background-color: grey;
+}
+#reset{
+	border-radius: 50px;
+	display: inline-block;
+	float: right;
+	background-color: white;
+	border-style: solid;
+	margin: 10px;
+	margin-top: 5%;
+	width: 66px;
+	height: 70px;
+	background-image: url(../img/reset.png);
+	background-repeat: no-repeat;
+	background-size: 168%;
+	background-position: 50% 50%;
+	position:relative;
+	z-index: 1;
 }
 
-
-#fuel img{
-	background-color:grey;
+#vel{
+	float: left;
+	background-color: grey;
+	margin: 10px;
+	margin-top: 5%;
+	width: 230px;
+	height: 70px;
+	border-style: solid;
+	background-image: url(../img/Speed.png);
+	background-repeat: no-repeat;
+	background-size: 27%;
+	background-position: 0% 50%;
+	position:relative;
+	z-index: 1;
 
 }
 
+#gas {
+	float: left;
+	background-color: grey;
+	margin: 10px;
+	margin-top: 5%;
+	width: 230px;
+	height: 70px;
+	border-style: solid;
+	background-image: url(../img/fuel.png);
+	background-repeat: no-repeat;
+	background-size: 27%;
+	background-position: 0% 70%;
+	position:relative;
+	z-index: 1;	
+}
 
+#alt {
+	float: left;
+	background-color: grey;
+	margin: 10px;
+	margin-top: 5%;
+	width: 230px;
+	height: 70px;
+	border-style: solid;
+	background-image: url(../img/altura.png);
+	background-repeat: no-repeat;
+	background-size: 27%;
+	background-position: 0% 50%;
+	position:relative;
+	z-index: 1;	
+}
 
-#altimetro img{
-	background-color:grey;
+#indicadores {
+	margin-top: 149px;
+	list-style-type: none; 
+	padding: 0px;
+
+}
+
+#menu {
+	list-style-type:none;
+	padding: 0px;
 
 }
