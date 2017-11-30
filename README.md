@@ -20,3 +20,4 @@ En el div de la zona izquierda encontramos los indicadores especificados anterio
 En el div de la zona derecha encontramos los iconos, estos al accionarse realizarán varias funciones, el botón de play y reset recargarán la página mientras que el botón de opciones enlazará hacia una página donde se encuentran las instrucciones, en su versión móvil los iconos de play y reset desaparecerán y solo quedará el botón de opciones el cual actuará como un menú desplegable, donde encontraremos los demás botones.
 
 # Link de rawgit:
+https://cdn.rawgit.com/jmb463/Lunar_LanderHTML-CSS/770b99e1/Lunar_Lander.html
